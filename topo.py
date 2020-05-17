@@ -1,6 +1,6 @@
 from mininet.topo import Topo
 
-Class CustomTopo(Topo):
+class CustomTopo(Topo):
   def __init__(self):
     Topo.__init__(self)
 
